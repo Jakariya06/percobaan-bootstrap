@@ -1,0 +1,139 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+.container-fluid {
+  font-family: "Gill Sans", sans-serif;
+  padding: 3% 15% 7%;
+}
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: monospace;
+  font-size: 2rem;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: monospace;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 20px;
+  }
+
+.download-button {
+    margin: 5% 3% 5% 0;
+  }
+
+.title-image {
+  width: 60%;
+  height: 150%;
+  transform: rotate(-3deg);
+  position: absolute;
+
+}
+
+@media (max-width:1280px)   {
+  #title{
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#features {
+  padding: 3% 15%;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+}
+.features-box {
+  padding: 5%;
+}
+.par {
+  text-align: align;
+  padding: 1%;
+}
+
+
+
+#testimonials {
+  text-align: center;
+  background-color: #ef4b4b;
+  color: white;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonials-image {
+  border-radius: 100%;
+  width: 15%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef4b4b;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+    border-radius: 100%;
+}
+
+#pricing {
+  background-color: #eeeeee;
+  text-align: center;
+  color: Black;
+
+}
+.text {
+  color: blue;
+
+}
+
+#download {
+  background-color:#ef4b4b;
+  text-align: center;
+  padding: 7% 15%;
+  color: white;
+}
+
+.dd-heading {
+  font-size: 3.5rem;
+  font-family: sans-serif;
+  font-style: italic;
+}
+#bonus {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 100px;
+  color: white;
+}
+
+.bonus-coulomn {
+  padding: 3% 2%;
+  color: black;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
